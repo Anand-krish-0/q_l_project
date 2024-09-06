@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 def load_model():
-    with open('diabeties_saved_steps.pkl', 'rb') as file:
+    with open('ML_project_streamlit/ML_2_diabeties_prediction/diabeties_saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
